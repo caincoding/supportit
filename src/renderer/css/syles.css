@@ -1,0 +1,48 @@
+@import 'roboto';
+
+body {
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dragbar {
+  background: #D50000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.minmax {
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  padding-top: .2rem;
+}
+
+.sizespace {
+  margin-left: .7rem;
+}
+
+.spacer {
+  -webkit-app-region: drag;
+  height: 100%;
+  display: flex;
+  margin-left: 1rem;
+  flex-grow: 1;
+  cursor: -webkit-grab;
+}
+
+.md-app-content {
+  height: 100vh;
+}
+
+.md-app {
+  min-height: 100vh;
+  border: 1px solid rgba(#000, .12);
+}
+
+.md-app-drawer{
+  max-width: 200px;
+}
