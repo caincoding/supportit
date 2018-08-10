@@ -36,6 +36,16 @@ export default new Router({
       component: require('@/components/Terminal').default
     },
     {
+      path: '/settings',
+      name: 'Settings',
+      component: require('@/components/Settings').default
+    },
+    {
+      path: '/about',
+      name: 'About',
+      component: require('@/components/About').default
+    },
+    {
       path: '*',
       redirect: '/'
     }

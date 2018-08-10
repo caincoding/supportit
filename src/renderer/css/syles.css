@@ -31,7 +31,6 @@ body {
   display: flex;
   margin-left: 1rem;
   flex-grow: 1;
-  cursor: -webkit-grab;
 }
 
 .md-app-content {
@@ -44,5 +43,13 @@ body {
 }
 
 .md-app-drawer{
-  max-width: 200px;
+  max-width: 230px;
+}
+
+.dark {
+  color: #000 !important;
+}
+
+.alertbox {
+  border: 1px solid #000000;
 }

@@ -24,9 +24,7 @@
 </template>
 
 <script>
-  export default {
-    name: 'knowledge',
-    data: () => ({
-    })
-  }
+export default {
+  name: 'settings'
+}
 </script>

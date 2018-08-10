@@ -1,15 +1,15 @@
 <template>
   <div>
+    <p>about</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'terminal',
+  name: 'about',
   data: () => {
     return {
     }
   }
 }
 </script>
-
